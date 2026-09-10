@@ -915,12 +915,12 @@ iconGroups.forEach((items, parent) => {
         .strategy-item {
             transition: background 0.4s ease, padding-left 0.3s ease;
             
-            padding-left: 12px;
+            padding-left: 5px;
             cursor: default;
         }
         .strategy-item:hover {
-            background: radial-gradient(50% 50% at 50% 50%, rgba(42,143,210,0.08) 0%, rgba(7,106,171,0.08) 100%);
-            padding-left: 20px;
+            // background: radial-gradient(50% 50% at 50% 50%, rgba(42,143,210,0.08) 0%, rgba(7,106,171,0.08) 100%);
+            padding-left: 5px;
         }
         .strategy-item h3,
         .strategy-item p {
